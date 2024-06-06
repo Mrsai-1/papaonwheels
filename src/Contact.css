@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+.labels{
+    text-align: left;
+}
+
+.container-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  /* button:hover {
+    background-color: #0056b3;
+  } */
+
+  .Contact-label{
+    /* height: 13vh; */
+    display: block;
+    padding: 3%;
+    /* background: #fff9f9; */
+    color: #070606;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+  
+

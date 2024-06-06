@@ -1,0 +1,37 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    /* Set a width large enough to accommodate the repeated content */
+    width: 100%; /* Example width, adjust as needed */
+    animation: marquee-animation 20s linear infinite; /* Adjust timing as needed */
+  }
+  
+  .marquee-content.paused {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  .marquee{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .marquee-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* This will create columns with equal width */
+    gap: 10px; 
+  }

@@ -1,0 +1,80 @@
+.carousel-indicators [data-bs-target]{
+    border-radius: 100%;
+    width:10px;
+    height:10px;
+}
+/* 
+.Lable-display{
+     background:#0f172a;
+}
+.Brands-display{
+    background:#0f172a; 
+} */
+.label-Content{
+    font-family: "Cedarville Cursive", cursive;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+.Brands-Content{
+    font-family: "Cedarville Cursive", cursive;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+/* .Div-Label{
+    border: 1px solid #fff;
+}
+
+.Brands-Label{
+    border: 1px solid #fff;
+} */
+
+.slick-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.slick-initialized .slick-slide {
+    display:flex!important;
+}
+
+.assers{
+  width:72px;
+  height:72px;
+}
+
+.wrigting{
+    font-weight: 700;
+}
+
+
+  .recipe-carousel-container {
+    position: relative;
+  }
+
+  
+        .next-button {
+          position: absolute;
+          top: 50%;
+          left:100%;
+          transform:  translateY(-85%);
+          background: none;
+          border: none;
+          color: white;
+          font-size: 24px;
+          cursor: pointer;
+          z-index: 1; /* Ensure buttons appear above the slider */
+        }
+        .prev-button{
+            position: absolute;
+          top: 50%;
+          right:100%;
+          transform: translateY(-85%);
+          background: none;
+          border: none;
+          color: white;
+          font-size: 24px;
+          cursor: pointer;
+          z-index: 1; /* Ensure buttons appear above the slider */
+        }
+
+        
