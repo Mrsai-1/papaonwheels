@@ -94,7 +94,7 @@ function FirstComponent(){
 function LabelDisplay(){
     return(
         <div className='Div-Label'>
-           <div className='text-center text-responsive label-Content' style={{fontWeight:'900'}}>Everything For every Tot</div>
+           <div className='text-center text-responsive label-Content' style={{fontWeight:'900'}}>Everything For every <span style={{fontSize:'63px'}}>Tot</span></div>
         </div>
     )
 }
@@ -179,22 +179,72 @@ const RecipeCarousel = () => {
     },
     { 
       name: 'ItamName 2',
-      image: "./images/images.png",
+      image: "./images/heku (1).png",
       description: 'Description of recipe 2',
       link: '/recipe2'
     },
     { 
       name: 'ItamName 3',
-      image: "./images/downloading.jpeg",
+      image: "./images/Buddyz logo.png",
       description: 'Description of recipe 3',
       link: '/recipe3'
     },
     { 
       name: 'ItamName 4',
-      image: "./images/download.png",
+      image: "./images/Fundle logo.png",
       description: 'Description of recipe 3',
       link: '/recipe4'
     },
+    { 
+      name: 'ItamName 5',
+      image: "./images/Rabbit (3).png",
+      description:'Description of recipe 3',
+      link: '/recipe5'
+    },
+    { 
+      name: 'ItamName 6',
+      image: "./images/gooyo.png",
+      description:'Description of recipe 3',
+      link: '/recipe6'
+    },
+    { 
+      name: 'ItamName 7',
+      image: "./images/unik logo.png",
+      description:'Description of recipe 3',
+      link: '/recipe7'
+    },
+    { 
+      name: 'ItamName 8',
+      image: "./images/zigyasaw.png",
+      description:'Description of recipe 3',
+      link: '/recipe8'
+    },
+    { 
+      name: 'ItamName 9',
+      image: "./images/Baby steps.png",
+      description:'Description of recipe 3',
+      link: '/recipe9'
+    },
+    { 
+      name: 'ItamName 10',
+      image: "./images/play me logo.png",
+      description:'Description of recipe 3',
+      link: '/recipe10'
+    },
+    { 
+      name: 'ItamName 10',
+      image: "./images/logo.png",
+      description:'Description of recipe 3',
+      link: '/recipe10'
+    },
+    { 
+      name: 'ItamName 10',
+      image: "./images/Awala (2).png",
+      description:'Description of recipe 3',
+      link: '/recipe10'
+    },
+
+    
     // Add more recipes as needed
   ];
 
