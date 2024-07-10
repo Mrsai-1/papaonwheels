@@ -11,7 +11,7 @@ import SwatchBharath from "./images/SWATCH.png";
 const FooterColumn = ({ title, children }) => {
   return (
     <div className="footer-column">
-      <h3>{title}</h3>
+      <h3 className="text-danger">{title}</h3>
       <ul>{children}</ul>
     </div>
   );
@@ -24,7 +24,7 @@ const Footer = () => {
         <FooterColumn
           title={<img src={Logo} alt="papa" width="200px" height="100px" />}
         >
-          <li className="text-left" style={{ fontWeight: "700" }}>
+          <li className="text-left" style={{ fontWeight: "500" }}>
             2nd floor, 35/274, Plot No, 5-5, 35/264/2, Prashanti Nagar, Shakti
             Puram, Kukatpally, Telangana 500072
           </li>
@@ -63,7 +63,7 @@ const Footer = () => {
             </li>
             <li>
               <NavLink to="./introduction" className="tab-itam1">
-                introduction
+                Introduction
               </NavLink>
             </li>
             <li>
@@ -96,7 +96,7 @@ const Footer = () => {
             </li>
             <li className="icons">
               <a
-                href="https://www.linkedin.com/in/papa-every-thing-for-every-tot-8b35a4301/"
+                href="https://www.youtube.com/channel/UCGT_Pe0Zgr7PmxYVRQcXHSw/"
                 rel="noopener noreferrer"
                 target="_blank"
               >

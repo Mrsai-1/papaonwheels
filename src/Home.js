@@ -94,7 +94,7 @@ function FirstComponent(){
 function LabelDisplay(){
     return(
         <div className='Div-Label'>
-           <div className='text-center text-responsive label-Content' style={{fontWeight:'900'}}>Everything For every <span style={{fontSize:'63px'}}>Tot</span></div>
+           <div className='text-center text-responsive label-Content text-danger' style={{fontWeight:'500'}}>Everything For Every <span style={{fontSize:'40px'}}>Tot</span></div>
         </div>
     )
 }
@@ -105,23 +105,24 @@ function Asserts(){
             <div className='row'>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                 <img src={Design} alt="" className='text-center assers'/>
-                <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>Disign</h4>
-                <p className='text-justify text-center wrigting'>We're committed to design new toys for kids that promote positive development & growth in young minds. Our toys are carefully crafted to provide children with the tools they need to thrive.</p>
+                <h4 className='text-center text-danger' style={{fontSize:'32px'}}>Design</h4>
+                <p className='text-justify text-center wrigting'>
+We are dedicated to creating new toys for children that foster positive development and growth in their young minds. Each toy is meticulously designed to equip children with the tools necessary to flourish.</p>
                 </div>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                 <img src={security} alt="" className='text-center assers'/>
-                <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>Safety</h4>
-                <p className='text-justify text-center wrigting'>All of our toys are rigorously tested to ensure that they meet or exceed the highest safety standards. Child safety is our top priority while making toys for young boys and girls.</p>
+                <h4 className='text-center text-danger' style={{fontSize:'32px'}}>Safety</h4>
+                <p className='text-justify text-center wrigting'>Every one of our toys undergoes rigorous testing to guarantee they meet or surpass the highest safety standards. Ensuring child safety is our utmost priority in creating toys for young boys and girls.</p>
                 </div>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                     <img src={Envornment} alt="" className='text-center assers'/>
-                    <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>Eco-Friendly</h4>
-                    <p className='text-justify text-center wrigting'>We promote sustainability through our use of solar energy, eco-friendly FSC certified materials, recycled and recyclable materials and responsible waste management.</p>
+                    <h4 className='text-center text-danger' style={{fontSize:'32px'}}>Eco-Friendly</h4>
+                    <p className='text-justify text-center wrigting'>We champion sustainability by utilizing solar energy, eco-friendly FSC-certified materials, recycled and recyclable materials, and responsible waste management practices.</p>
                 </div>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                 <img src={MadeInIndia} alt="" className='text-center assers'/>
-                <h4 className='text-center text-danger' style={{fontWeight:'900',fontSize:'32px'}}>Made In India</h4>
-                <p className='text-center text-justify wrigting'>All our products are proudly researched, conceptualized, designed & manufactured in our facilities in India. Webby Toys are available for kids of all ages.</p>
+                <h4 className='text-center text-danger' style={{fontSize:'32px'}}>Made In India</h4>
+                <p className='text-center text-justify wrigting'>Every product we offer is proudly researched, conceptualized, designed, and manufactured at our facilities in India. Webby Toys caters to children of all ages.</p>
 
                 </div>
             </div>
@@ -132,8 +133,8 @@ function Asserts(){
 function BrandsDisplay(){
     return(
         <div className='Brands-Label'>
-           <div className='text-center text-responsive Brands-Content' style={{fontWeight:'900'}}>Brands We Collaborate With</div>
-        </div>
+           <div className='text-center text-responsive Brands-Content text-danger' style={{fontWeight:'500'}}>Brands We Collaborate With</div>
+           <br></br></div>
     )
 }
 
@@ -294,12 +295,12 @@ const RecipeCarousel = () => {
       </Slider>
       
       <button className="prev-button" onClick={slickPrev}>
-          <FontAwesomeIcon icon={faArrowLeft} style={{ backgroundColor: 'black' }} />
+          <FontAwesomeIcon icon={faArrowLeft} style={{ color: 'black' }} />
         </button>
         
         {/* Right button */}
         <button className="next-button" onClick={slickNext}>
-          <FontAwesomeIcon icon={faArrowRight} style={{ backgroundColor: 'black' }} />
+          <FontAwesomeIcon icon={faArrowRight} style={{ color: 'black' }} />
         </button>
     </div><br></br>
     

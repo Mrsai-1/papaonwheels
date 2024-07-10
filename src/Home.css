@@ -11,14 +11,14 @@
     background:#0f172a; 
 } */
 .label-Content{
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Nunito-Bold";
     color: rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 40px;
 }
 .Brands-Content{
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Nunito-Bold";
     color: rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 40px;
 }
 /* .Div-Label{
     border: 1px solid #fff;
@@ -43,7 +43,7 @@
 }
 
 .wrigting{
-    font-weight: 700;
+    font-weight: 500;
 }
 
 

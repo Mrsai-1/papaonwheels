@@ -21,7 +21,7 @@ function App() {
 
       <Navbar />
       {/* <Marquee/> */}
-      <Routes>
+      <Routes className="all-components">
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />

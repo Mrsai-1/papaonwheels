@@ -89,39 +89,39 @@ function Contact(){
         <>
         <br></br>
         <div className='container-fluid Contact-label'>
-        <h5 className='fs-2 fw-bold '>Contact Us</h5>
-        <p className='fs-6 fw-bold'>Home / Contact</p>
+        <h5 className='fs-2 fw-bold text-danger'>Contact Us</h5>
+        <p className='fs-6'>Home / Contact</p>
         </div>
        
-      <br></br>
+      
         <div className='container'>
           
             <div className='row'>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                 <img src={location} alt="" className='text-center assers'/>
-                <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>ADDRESS</h4>
-                <p className='text-justify text-center fs-5 fw-bold'>2nd floor, 35/274, Plot No, 5-5, 35/264/2, Prashanti Nagar, Shakti Puram, Kukatpally, Telangana 500072</p>
+                <h4 className='text-center text-danger' style={{fontSize:'32px'}}>ADDRESS</h4>
+                <p className='text-justify text-center fs-5 '>2nd floor, 35/274, Plot No, 5-5, 35/264/2, Prashanti Nagar, Shakti Puram, Kukatpally, Telangana 500072</p>
                 </div>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                 <img src={Email} alt="" onClick={openEmail} className='text-center assers'/>
-                <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>EMAIL</h4>
-                <p className='text-justify text-center fs-5 fw-bold'>papaofficial24@gmail.com</p>
+                <h4 className='text-center text-danger' style={{fontSize:'32px'}}>EMAIL</h4>
+                <p className='text-justify text-center fs-5'>papaofficial24@gmail.com</p>
                 </div>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                     <img src={call} alt="" onClick={openMobile} className='text-center assers'/>
-                    <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>PHONE</h4>
-                    <p className='text-justify text-center fs-5 fw-bold'>+91 8106189484</p>
+                    <h4 className='text-center text-danger' style={{fontSize:'32px'}}>PHONE</h4>
+                    <p className='text-justify text-center fs-5'>+91 8106189484</p>
                 </div>
                 <div className='col-xs-12 col-sm-3 col-md-3 col-lg-3'>
                 <img src={clock} alt="" className='text-center assers'/>
-                <h4 className='text-center text-danger' style={{fontWeight:'bold',fontSize:'32px'}}>TIMING</h4>
-                <p className='text-center text-justify fs-5 fw-bold'>Mon-Sat from 10am-7pm</p>
+                <h4 className='text-center text-danger' style={{fontSize:'32px'}}>TIMING</h4>
+                <p className='text-center text-justify fs-5 '>Mon-Sat from 10am-7pm</p>
 
                 </div>
                 </div>
                 <br></br>
                 </div>
-
+                <h5 className='fs-2 fw-bold text-danger'>Map View</h5><br></br>
 <div className="container" >
   <div className="row justify-content-center align-itams-center" >
     <div className='col-sm-7 col-md-7 col-xs-7 col-lg-7' style={{display:'none'}}>

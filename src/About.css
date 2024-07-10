@@ -1,15 +1,9 @@
-/* .About-display{
-    background:#0f172a;
-}
 
-.About-Label{
-    border: 1px solid #fff;
-} */
 
 .About-Content{
-    font-family: "Cedarville Cursive", cursive;
-    color: rgb(0, 0, 0);
-    font-size: 94px;
+    font-family: "Nunito-Bold";
+    color: rgb(246, 0, 0);
+    font-size: 40px;
 }
 
 .About-Text{
@@ -19,12 +13,12 @@
 }
 
 .welcomeText{
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 500;
     border-bottom: 2px solid black;
 }
 
 .aboutText{
-    font-size: x-large;
-    font-weight: 600;
+    font-size: large;
+    font-weight: 500;
 }

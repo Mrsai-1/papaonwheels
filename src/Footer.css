@@ -21,7 +21,7 @@
   
   .footer-column h3 {
     color: #0e0e0e;
-    font-weight: 700; 
+    font-weight: 500; 
  }
   
   .footer-column ul {
@@ -101,14 +101,14 @@
     text-decoration: none;
     color:#000 !important;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 .tab-itam1{
   text-decoration: none;
   color:#000 !important;
   font-size: 27px;
-  font-weight: 700;
+  font-weight: 500;
   background: none!important;
 }
 

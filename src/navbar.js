@@ -32,7 +32,7 @@ export const Navbar = () => {
           <NavLink to="./About">About Us</NavLink>
         </li>
         <li className="nav-item dropdown">
-          <NavLink to="./introduction">introduction</NavLink>
+          <NavLink to="./introduction">Introduction</NavLink>
         </li>
         <li>
           <NavLink to="./contact">Contact Us</NavLink>

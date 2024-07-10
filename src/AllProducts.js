@@ -44,7 +44,7 @@ function AllProducts(){
   return(
     <>
     <div className='container '>
-  <h2 className='text-black '>Introduction</h2>
+  <h2 className='text-danger'>Introduction</h2>
   <img src={pic1} className='w-100' alt='pic1'/>
   <img src={pic2} className="w-100" alt='pic2'/>
   <img src={pic3}  className="w-100" alt='pic3'/>
